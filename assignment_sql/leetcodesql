@@ -1,0 +1,26 @@
+show databases;
+ use id;
+select * from salary;
+select max(sal) from salary where sal group by sal order by max(sal);
+alter table salary rename column salary to sal;
+select max(sal) from salary where sal =(select max(sal) from salary where sal<
+(select max(sal) from salary where sal <
+(select max(sal) from salary where sal <
+(select max(sal) from salary))));
+
+
+select * from employee;
+select numbers from employee ;
+select (numbers)*-1 as converted  from employee;
+
+
+
+use flag;
+select * from flag_rate;
+select rate,case when rate=LAG(rate,1,1) over (order by rate) then o else 1 end as flag from L1;
+alter table flag_rate add primary key(ID);
+alter table flag_rate add column `id` int(10) primary key AUTO_INCREMENT;
+SELECT rate,
+CASE WHEN rate = LAG (rate,1,1) OVER (ORDER BY id) THEN 0 ELSE 1 END AS Flag
+FROM flag_rate
+order by (id);

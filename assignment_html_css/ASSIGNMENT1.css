@@ -1,0 +1,621 @@
+html, body {
+    max-width: 100%;
+    max-height: 100%;
+    overflow-x: hidden;
+    
+}
+#head1{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top: 10px;
+    left: 248px;
+    color: green;
+    font-size: 36px;
+}
+#head3{
+    position: relative;
+    bottom: 201px;
+    left: 380px;
+    font-size: 24px;
+    color: black;
+    font-style: italic;
+}
+#head4{
+    position: relative;
+    bottom: 220px;
+    left: 273px;
+    color: grey;
+}
+#head44{
+    position: relative;
+    bottom: 280px;
+    left: 600px;
+    font-style: italic;
+    color: grey;   
+}
+#input{
+    position: relative;
+    bottom: 320px;
+    left: 850px;
+}
+#nav1{
+    position: relative;
+    bottom: 310px;
+    left: 550px;
+    color: green;
+}
+#nav2{
+    position: relative;
+    bottom: 310px;
+    left: 570px;
+    color: black;
+}
+#nav3{
+    position: relative;
+    bottom: 310px;
+    left: 590px;
+    color: black;
+}
+#nav4{
+    position: relative;
+    bottom: 310px;
+    left: 610px;
+    color: black;
+}
+#nav5{
+    position: relative;
+    bottom: 310px;
+    left: 630px;
+    color: black;
+}
+#nav6{
+    position: relative;
+    bottom: 310px;
+    left: 640px;
+    color: black;
+}
+#div1{
+    position: relative;
+    color: black;
+    bottom: 260px;
+    background-color: gray;
+    height: 70px;
+    text-align: center;
+    padding-top: 35px;
+    
+}
+#Button1{
+    height: 40px;
+    width: 160px;
+    color: white;
+    background-color: darkgrey;
+    border: 2px solid white ;
+    font-weight: bold;
+}
+#div2{
+    position: relative;
+    bottom: 260px;
+}
+#img1{   
+    height: 400px;
+    width: 1300px;
+}
+#para1{
+    position: relative;
+    bottom: 390px;
+    left: 650px;
+    font-size: 30px;
+    font-weight: bold;
+    opacity: 0.5;
+}
+#button2{
+    position: relative;
+    height: 50px;
+    width: 180px;
+    color: white;
+    background-color: rgb(50, 167, 50);
+    font-weight: bold;
+    bottom: 400px;
+    left: 750px;
+    border-radius: 6px;
+}
+
+.play-button1 {
+    position: relative;
+    margin: 25% auto;
+    width: 90px;
+    height: 80px;
+    background-color: rgb(50, 167, 50);
+    cursor: pointer;
+    bottom:750px;
+    left: -300px;
+    opacity: 0.6;
+
+  }
+  
+.play-button {
+    position: relative;
+    margin: 0 auto;
+    top: 30%; 
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 1em 0 1em 2em;
+    border-color: transparent transparent transparent white;
+    opacity: 0.6;
+  }
+#head5{
+    position: relative;
+    bottom: 1150px;
+    left: 130px;
+  }
+#div3{
+    position: relative;
+    bottom: 1150px;
+    left: 130px;
+    
+}
+#button4{
+    position: relative;
+    height: 50px;
+    width: 180px;
+    color: white;
+    background-color: rgb(50, 167, 50);
+    font-weight: bold;
+    bottom: 290px;
+    left: 5px;
+    border-radius: 6px;
+}
+#image2{
+    position: relative;
+    bottom: 350px;
+    left: 380px;
+}
+#head6{
+    position: relative;
+    bottom: 1350px;
+    font: weight 500px;
+    padding-top: 5px;
+    left: 500px;
+}
+/* #option{
+     filter: opacity(0.90) drop-shadow(0 0 0 green);  
+} */
+#image4{
+    position: relative;
+    height: 500px;
+    width: 1600px;
+    opacity: 0.3;
+    bottom: 2020px;
+}
+#head7{
+    position: relative;
+    bottom: 1350px;
+    left:400px;
+    font-size: 25px;
+}
+.button5{
+    position: relative;
+    height: 70px;
+    width: 70px;
+    color:white;
+    border-color: green;
+    bottom: 1300px;
+    left: 350px;
+    border-radius: 60px;
+    background-color:black;
+    margin: 20px;
+    padding: 10px;
+}
+#button6{
+    position: relative;
+    height: 50px;
+    width: 300px;
+    border: 2px;
+    color: white;
+    border-color: black;
+    background-color: black;
+    bottom: 1200px;
+    left: -180px;
+    padding: 10px;
+}
+.dot{
+    position: relative;
+    color: black;
+    bottom: 1380px;
+    left: 445px;
+}
+.dot1{
+    position: relative;
+    color: black;
+    bottom: 1410px;
+    left: 560px;
+}
+.dot2{
+    position: relative;
+    color: black;
+    bottom: 1445px;
+    left: 670px;
+}
+.dot3{
+    position: relative;
+    color: black;
+    bottom: 1480px;
+    left: 790px;
+}
+.dot4{
+    position: relative;
+    color: black;
+    bottom: 1515px;
+    left: 900px;
+}
+#steps{
+    position: relative;
+    color: black;
+    bottom: 1610px;
+    left: 385px;
+}
+#steps1{
+    position: relative;
+    color: black;
+    bottom: 1645px;
+    left: 500px;
+}
+#steps2{
+    position: relative;
+    color: black;
+    bottom: 1680px;
+    left: 610px;
+}
+#steps3{
+    position: relative;
+    color: black;
+    bottom: 1715px;
+    left:730px;
+}
+#steps4{
+    position: relative;
+    color: black;
+    bottom: 1750px;
+    left: 840px;
+}
+#steps5{
+    position: relative;
+    color: black;
+    bottom: 1785px;
+    left: 950px;
+}
+#text1{
+    position: relative;
+    width: 1500px;
+    height: 65px;
+    bottom: 2650px;
+    left: 300px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#bg1{
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1500px;
+    height: 650px;
+    bottom: 2000px;
+    opacity: 0.5;
+}
+#template1{
+    position: relative;
+    bottom: 2600px;
+    left: 200px;
+    height: 400px;
+    width: 400px;
+    border: 5px solid white;
+    background-color: white;
+    opacity: 0.8;
+}
+#template2{
+    position: relative;
+    bottom: 3010px;
+    left: 700px;
+    height: 400px;
+    width: 400px;
+    border: 5px solid white;
+    background-color: white;
+    opacity: 0.8;
+}
+#button7{
+    position: relative;
+    height: 40px;
+    width: 100px;
+    bottom: 10px;
+    left: 120px;
+    color:white;
+    border-color: green;
+    background-color:green;
+    margin: 20px;
+    padding: 10px;
+}
+#button8{
+    position: relative;
+    height: 40px;
+    width: 100px;
+    bottom: 10px;
+    left: 120px;
+    color:white;
+    border-color: green;
+    background-color:green;
+    margin: 20px;
+    padding: 10px;
+}
+#image5{
+    position: relative;
+    height: 20%;
+    width: 20%;
+    left: 40%;
+}
+#image6{
+    position: relative;
+    height: 20%;
+    width: 20%;
+    left: 40%;
+}
+#image7{
+    position: relative;
+    height: 500px;
+    width: 100%;
+    bottom: 2890px;
+    opacity: 0.8;
+}
+#head8{
+    position: relative;
+    bottom:3330px;
+}
+#image8{
+    position: relative;
+    bottom: 3310px;
+    border-radius: 100%;
+    height: 150px;
+    width: 150px;
+    left: 45%;
+}
+#para5{
+    position: relative;
+    bottom: 3300px;
+    font-size: 20px;
+}
+#para6{
+    position: relative;
+    bottom: 3300;
+    font-size: large;
+}
+#heading8{
+    position: relative;
+    bottom: 3200px;
+}
+#employeeimage{
+    position: relative;
+    bottom: 3200px;
+    height: 200px;
+    width: 200px;
+    left: 200px;
+}
+#employeeimage2{
+    position: relative;
+    bottom: 3200px;
+    height: 200px;
+    width: 250px;
+    left: 600px;
+}
+#employeeimage3{
+    position: relative;
+    bottom: 3200px;
+    height: 200px;
+    width: 250px;
+    left: 20px;
+}
+#para7{
+    position: relative;
+    bottom: 3200px;
+    left: 200px;
+    height: 400px;
+    width: 200px;
+    border: 5px solid white;
+    background-color: white;
+}
+#para8{
+    position: relative;
+    bottom: 3630px;
+    left: 500px;
+    height: 400px;
+    width: 200px;
+    border: 5px solid white;
+    background-color: white;
+}
+#para9{
+    position: relative;
+    bottom: 4050px;
+    left: 800px;
+    height: 400px;
+    width: 200px;
+    border: 5px solid white;
+    background-color: white;
+}
+#button9{
+    position: relative;
+    height: 40px;
+    width: 100px;
+    bottom: 4300px;
+    left: 220px;
+    color:black;
+    border-color: green;
+    background-color:white;
+    margin: 20px;
+    padding: 10px;
+}
+#button10{
+    position: relative;
+    height: 40px;
+    width: 100px;
+    bottom: 4300px;
+    left: 360px;
+    color:white;
+    border-color: green;
+    background-color:green;
+    margin: 20px;
+    padding: 10px;
+}
+#button11{
+    position: relative;
+    height: 40px;
+    width: 100px;
+    bottom: 4300px;
+    left: 520px;
+    color: black;
+    border-color: green;
+    background-color:white;
+    margin: 20px;
+    padding: 10px;
+}
+#Button12{
+    height: 40px;
+    width: 160px;
+    color: white;
+    background-color: gray;
+    border: 2px solid black ;
+    font-weight: bold;
+}
+#div7{
+    position: relative;
+    bottom: 4300px;
+    border: 2px grey;
+    background-color: gray;
+    height: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#fileimg{
+    position: relative;
+    height: 70px;
+    width: 50px;
+    bottom: 4400px;
+    left: 270px;
+}
+#footer2{
+    position: relative;
+    bottom: 4370px;
+    height: 600px;
+    width: 1270px;
+    border: 2px solid black;
+    /* opacity: 0.5; */
+    background-color:rgb(49, 47, 47);
+} 
+#heading9{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    bottom: 20px;
+    left: 248px;
+    color: darkgreen;
+    font-size: 36px;
+}
+#heading10{
+    position: relative;
+    bottom: 230px;
+    left: 380px;
+    font-size: 24px;
+    color: white;
+    font-style: italic;
+}
+#heading11{
+    position: relative;
+    bottom: 250px;
+    left: 273px;
+    color: grey;
+}
+#heading12{
+    position: relative;
+    bottom: 240px;
+    left: 250px;
+    font-style: italic;
+    color: grey;  
+    font-size: 22px; 
+}
+#para10{
+    position: relative;
+    bottom: 380px;
+    left: 700px;
+    font-size: 20px;
+    color: white;
+}
+#button14{
+    position: relative;
+    height: 40px;
+    width: 200px;
+    bottom: 390px;
+    left: 680px;
+    color: white;
+    border-color: green;
+    background-color:green;
+    margin: 20px;
+    padding: 10px;
+}
+#button15{
+    position: relative;
+    height: 40px;
+    width: 200px;
+    bottom: 390px;
+    left: 700px;
+    color: white;
+    border-color: green;
+    background-color:green;
+    margin: 20px;
+    padding: 10px;
+}
+#para11{
+    position: relative;
+    bottom: 280px;
+    left: 200px;
+    width: 220px;
+    color:white;
+}
+#para12{
+    position: relative;
+    bottom: 490px;
+    left: 570px;
+    width: 220px;
+    color: white;
+}
+#unorderd1{
+    position: relative;
+    bottom: 485px;
+    left: 500px;
+    width: 280px;
+    font-size: 18px;
+    color: white;
+}
+#para13{
+    position: relative;
+    bottom: 700px;
+    left: 900px;
+    width: 280px;
+    color: white;
+}
+#footerlast{
+    position: relative;
+    bottom: 4380px;
+    height: 40px;
+    padding-top: 10px;
+    background-color: black;
+}
+#footweb{
+    color: white;
+}
+#socialMedia{
+    position: relative;
+    height: 40px;
+    width: 250px;
+    left:1010px;
+    bottom: 35px;
+    color: white;
+}

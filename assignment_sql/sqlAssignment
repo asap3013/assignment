@@ -1,0 +1,7 @@
+show tables;
+select * from customer;
+SELECT customer_id, COUNT(*) as Total_Count FROM payment WHERE payment_date between '2005-08-02' and '2005-08-15' GROUP BY customer_id;
+SELECT customer_id, COUNT(*) as Orders FROM payment  group BY customer_id having Orders > 40 ORDER BY ORDERS DESC;
+select title as product from customer  Join film ON film.film_id=customer.customer_id ;
+select customer.first_name as First_name,customer.last_name as Surname,sum(payment.amount) as TotalPayment from payment  JOIN customer ON payment.customer_id=customer.customer_id group by payment.customer_id ;
+
